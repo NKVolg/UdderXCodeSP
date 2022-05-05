@@ -34,13 +34,23 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Milk" translatesAutoresizingMaskIntoConstraints="NO" id="A6p-t3-5LL">
+                                <rect key="frame" x="0.0" y="348" width="414" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="FzZ-VH-O8U"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="A6p-t3-5LL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0DT-Jc-dn7"/>
+                            <constraint firstItem="A6p-t3-5LL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C6P-Yh-rQb"/>
                             <constraint firstItem="x7Y-Jy-jNx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="Dxt-69-tkV"/>
                             <constraint firstItem="qzr-4E-Q6B" firstAttribute="top" secondItem="x7Y-Jy-jNx" secondAttribute="bottom" constant="15" id="G9d-Q2-DCP"/>
+                            <constraint firstItem="A6p-t3-5LL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YVy-aN-wuR"/>
                             <constraint firstItem="qzr-4E-Q6B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="skP-kK-apT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A6p-t3-5LL" secondAttribute="trailing" id="tZu-Ja-5Tw"/>
                             <constraint firstItem="x7Y-Jy-jNx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uES-CM-MPa"/>
                         </constraints>
                     </view>
@@ -51,6 +61,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Milk" width="137.5" height="129.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
